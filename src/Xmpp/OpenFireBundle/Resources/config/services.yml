@@ -1,0 +1,4 @@
+services:
+#    xmpp_open_fire.example:
+#        class: Xmpp\OpenFireBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]

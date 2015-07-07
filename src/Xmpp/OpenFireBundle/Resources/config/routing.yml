@@ -1,0 +1,3 @@
+xmpp_open_fire_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: XmppOpenFireBundle:Default:index }

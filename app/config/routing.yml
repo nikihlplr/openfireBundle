@@ -1,0 +1,7 @@
+xmpp_open_fire:
+    resource: "@XmppOpenFireBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
