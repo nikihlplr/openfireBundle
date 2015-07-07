@@ -1,0 +1,30 @@
+{
+    "name" : "Xmpp/OpenFireBundle",
+    "description" : "Openfire Bundle",
+    "type" : "symfony-bundle",
+    "authors" : [{
+        "name" : "Nikhil Surendran",
+        "email" : "nikhilplr@gmail.com"
+    }],
+    "keywords" : [
+        "Open fire Bundle "
+    ],
+    "license" : [
+        "MIT"
+    ],
+    "require" : {
+    },
+    "autoload" : {
+        "psr-0" : {
+            "Xmpp\\DemoBundle" : ""
+        }
+    },
+    "target-dir" : "Company/OpenFireBundle",
+    "repositories" : [{
+    }],
+    "extra" : {
+    "branch-alias" : {
+            "dev-master" : "some_version-dev"
+        }
+    }
+}
